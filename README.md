@@ -4,6 +4,12 @@ It's the latest 15 videos because the youtube rss only includes the latest 15 vi
 The configuration for your youtube channel and the page you want to publish to is in the .env file.
 The Slug and Title will be created if it doesn't exist.
 
+It takes a youtube channel like this:
+[![Youtube Channel](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)
+
+And turns it into a Church Center page like this:
+https://yourcbcfamily.churchcenter.com/pages/media
+
 # Setup
 - Download this repository
 `git clone https://github.com/pastorhudson/pco-youtube-publisher.git`
