@@ -5,9 +5,11 @@ The configuration for your youtube channel and the page you want to publish to i
 The Slug and Title will be created if it doesn't exist.
 
 It takes a youtube channel like this:
-[![Youtube Channel](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)
+[![Youtube Channel](https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)
 
 And turns it into a Church Center page like this:
+[![Church Center Page](https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/church_center.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png)
+
 https://yourcbcfamily.churchcenter.com/pages/media
 
 # Setup
