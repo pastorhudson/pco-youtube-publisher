@@ -12,7 +12,7 @@ And turns it into a Church Center page like this:
 
 https://yourcbcfamily.churchcenter.com/pages/media
 
-# Setup
+## Setup
 - Download this repository
 `git clone https://github.com/pastorhudson/pco-youtube-publisher.git`
 
@@ -38,3 +38,8 @@ Linux `source ./venv/bin/activate`
 
 - Run the script
 `python3 pco-youtube-publisher.py`
+
+## Crontab
+- I've provided update.sh as a simple script to use for running this as a cron job.
+- You just need to edit the path's in the update.sh. They need to be full directories since cron doesn't run as user.
+
