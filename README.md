@@ -1,5 +1,8 @@
 # pco-youtube-publisher
 This is a simple script to publish a youtube channel's latest 15 videos to a Planning Center Publishing page.
+It's the latest 15 videos because the youtube rss only includes the latest 15 videos.
+The configuration for your youtube channel and the page you want to publish to is in the .env file.
+The Slug and Title will be created if it doesn't exist.
 
 # Setup
 - Download this repository
@@ -13,11 +16,13 @@ PCO_PUBLISHING_SLUG=test
 PCO_PUBLISHING_TITLE=TEST
 YOUTUBE_CHANNEL=Channel ID
 ```
-- So if your Youtube channel address is `https://www.youtube.com/channel/UCnSsWxgHMVOPpzRJWTM7eDA/`
-Then your `YOUTUBE_CHANNEL=UCnSsWxgHMVOPpzRJWTM7eDA`
+- Get your youtube channel ID here https://www.youtube.com/account_advanced
+- Get your Planning Center Personal API Key here https://api.planningcenteronline.com/oauth/applications
 
-- Setup a virtual environment (Optional-Recomended)
-Linux `python3 -m venv ./venv`
+- Setup a python virtual environment (Optional)
+Linux `python3.8 -m venv ./venv`
+- Activate python virtual environment
+Linux `source ./venv/bin/activate`
 
 - Install requirements
 `pip install -r requirements.txt`
