@@ -27,6 +27,7 @@ YOUTUBE_CHANNEL=Channel ID
 - Get your youtube channel ID here https://www.youtube.com/account_advanced
 - Get your Planning Center Personal API Key here https://api.planningcenteronline.com/oauth/applications
 
+- You need Python 3.8 or greater
 - Setup a python virtual environment (Optional)
 Linux `python3.8 -m venv ./venv`
 - Activate python virtual environment
