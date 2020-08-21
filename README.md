@@ -5,7 +5,7 @@ This is a simple script to publish a youtube channel's latest 15 videos to a Pla
 - Download this repository
 `git clone https://github.com/pastorhudson/pco-youtube-publisher.git`
 
-- In the pco-youtube-publishing directory Create a .env file containing:
+- In the pco-youtube-publishing directory edit the .env file with your settings:
 ```
 PCO_CLIENT_ID=Application ID
 PCO_CLIENT_SECRET=Secret
