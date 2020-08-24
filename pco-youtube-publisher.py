@@ -15,7 +15,7 @@ def get_youtube_json_payload_from_rss(channel_id):
     entry = get_channel_feed(channel_id).entries
     elements = []
     for counter, e in enumerate(entry):
-        if counter < 8:
+        if counter < int(os.environ.get('YOUTUBE_VIDEOS_TO_POST')):
             title = f"<p><h1>{e.title}</h1</p>\n"
             elements.append(title)
             elements.append(
