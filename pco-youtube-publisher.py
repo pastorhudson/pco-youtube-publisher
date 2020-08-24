@@ -15,14 +15,14 @@ def get_youtube_json_payload_from_rss(channel_id):
     entry = get_channel_feed(channel_id).entries
     elements = []
     for counter, e in enumerate(entry):
-        if counter < 10:
+        if counter < 8:
             title = f"<p><h1>{e.title}</h1</p>\n"
             elements.append(title)
             elements.append(
                 f"""<p><iframe width="560" height="314" src="{e.link.replace('watch?v=', '/embed/', 1)}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>"""
                 )
-            elements.append(
-            f'<p><h1 style="text-align: center;"><a title="More Videos" href="https://youtube.com/channel/{channel_id}" target="_blank" rel="noopener">More Videos</a></h1></p>')
+    elements.append(
+    f'<p><h1 style="text-align: center;"><a title="More Videos" href="https://youtube.com/channel/{channel_id}" target="_blank" rel="noopener">More Videos</a></h1></p>')
     html_txt = "".join(elements)
     return html_txt
 
