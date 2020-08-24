@@ -1,6 +1,6 @@
 # pco-youtube-publisher
-This is a simple script to publish a youtube channel's latest 15 videos to a Planning Center Publishing page.
-It's the latest 15 videos because the youtube rss only includes the latest 15 videos.
+This is a simple script to publish a youtube channel's latest 10 videos to a Planning Center Publishing page.
+It's the latest 10 videos because I've noticed instability with the Church Center App when adding more videos.
 The configuration for your youtube channel and the page you want to publish to is in the .env file.
 The Slug and Title will be created if it doesn't exist.
 
