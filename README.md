@@ -23,6 +23,7 @@ PCO_CLIENT_SECRET=Secret
 PCO_PUBLISHING_SLUG=test
 PCO_PUBLISHING_TITLE=TEST
 YOUTUBE_CHANNEL=Channel ID
+LIVE_EMBED_CODE=<h1>Live</h1><iframe src="https://vimeo.com/event/174541/embed" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 ```
 - Get your youtube channel ID here https://www.youtube.com/account_advanced
 - Get your Planning Center Personal API Key here https://api.planningcenteronline.com/oauth/applications
