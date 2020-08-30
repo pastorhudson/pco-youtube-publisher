@@ -28,7 +28,7 @@ LIVE_EMBED_CODE=<h1>Live</h1><iframe src="https://vimeo.com/event/174541/embed" 
 - Get your youtube channel ID here https://www.youtube.com/account_advanced
 - Get your Planning Center Personal API Key here https://api.planningcenteronline.com/oauth/applications
 - If you add embed code for your live stream then it will post this video embed as the first in the list. We use vimeo and it has an option for reoccuring event. So our event embed doesn't change and when it's not live it just shows upcoming:
-[![LIVE EMBED](https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/vimeo.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/youtube.png=250x)
+[![LIVE EMBED](https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/vimeo_sm.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/vimeo_sm.png)
 
 - You need Python 3.8 or greater
 - Setup a python virtual environment (Optional)
