@@ -15,10 +15,12 @@ def get_channel_feed(channel_id):
 def get_youtube_json_payload_from_rss(channel_id):
 
     entry = get_channel_feed(channel_id).entries
+    div_style = '<div height=314 width=100% style={ position: relative; padding-bottom: 56.25%; height: 314; overflow: hidden; max-width:"560";}>'
     elements = []
     try:
         if os.environ.get('LIVE_EMBED_CODE') and date.today().weekday() == int(os.environ.get('LIVE_DAY')):
             elements.append(os.environ.get('LIVE_EMBED_CODE'))
+
     except ValueError:
         pass
 
@@ -27,7 +29,7 @@ def get_youtube_json_payload_from_rss(channel_id):
             title = f"<p><h1>{e.title}</h1</p>\n"
             elements.append(title)
             elements.append(
-                f"""<p><iframe width="560" height="314" src="{e.link.replace('watch?v=', '/embed/', 1)}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>"""
+                f"""{div_style}<iframe height=348 width=380 src="{e.link.replace('watch?v=', '/embed/', 1)}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>"""
                 )
     elements.append(
     f'<p><h1 style="text-align: center;"><a title="More Videos" href="https://youtube.com/channel/{channel_id}" target="_blank" rel="noopener">More Videos</a></h1></p>')
