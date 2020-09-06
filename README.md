@@ -24,12 +24,12 @@ PCO_PUBLISHING_SLUG=test
 PCO_PUBLISHING_TITLE=TEST
 YOUTUBE_CHANNEL=Channel ID
 LIVE_EMBED_CODE=<h1>Live</h1><iframe src="https://vimeo.com/event/174541/embed" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-LIVE_DAY=7
+LIVE_DAY=6
 ```
 - Get your youtube channel ID here https://www.youtube.com/account_advanced
 - Get your Planning Center Personal API Key here https://api.planningcenteronline.com/oauth/applications
 - If you add embed code for your live stream then it will post this video embed as the first in the list. We use vimeo and it has an option for reoccuring event. So our event embed doesn't change and when it's not live it just shows upcoming:
-- The `LIVE_DAY` is the day of the week for the `LIVE_EMBED_CODE` to show. 7 is Sunday.
+- The `LIVE_DAY` is the day of the week for the `LIVE_EMBED_CODE` to show. 6 is Sunday.
 [![LIVE EMBED](https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/vimeo_sm.png)](https://https://raw.githubusercontent.com/pastorhudson/pco-youtube-publisher/master/images/vimeo_sm.png)
 
 - You need Python 3.8 or greater
